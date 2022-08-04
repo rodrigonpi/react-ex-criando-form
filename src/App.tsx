@@ -36,7 +36,7 @@ const App = () => {
 
       <hr/>
 
-      Olá {nome} {sobrenome}, tudo bem?<br/>
+      Olá {`${nome} ${sobrenome}`}, tudo bem?<br/>
       Você tem {idade} anos.
     </div>
   );
